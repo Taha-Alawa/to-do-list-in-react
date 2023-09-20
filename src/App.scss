@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #021b34;
+}
+
+.container {
+  text-align: center;
+  background: #199473;
+  width: 58%;
+  height: 560px;
+  margin: 100px auto 0;
+  border-radius: 13px;
+  box-shadow: #126c54 0px 18px 50px -10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  h1 {
+    background: #25287b;
+    padding: 9px 19px;
+    border-radius: 7px;
+    color: #fff;
+    display: inline-block;
+    margin: 25px;
+  }
+}
+
+.generator {
+  width: 70%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-around;
+
+  input {
+    background: #0a3e30;
+    height: 28px;
+    font-size: 15px;
+    width: 70%;
+    border: 1px solid #0a3e30;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  input::placeholder {
+    color: #dddddd;
+    font-size: 14px;
+  }
+
+  button {
+    background: #25287b;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.list {
+  width: 62%;
+  height: 55px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  background: #0a3e30;
+  color: #fff;
+  border-radius: 12px;
+  border: #dddddd 2px solid;
+
+  .img {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      margin: 0 5px;
+    }
+  }
+
+
+  .save {
+    background: #25287b;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+
+  .cancel {
+    background: #7b2525;
+    width: 24%;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input {
+    background: #0a263e;
+    height: 24px;
+    font-size: 15px;
+    width: 50%;
+    border: 1px solid #0a3e30;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  input::placeholder {
+    color: #dddddd;
+    font-size: 14px;
+  }
+}
